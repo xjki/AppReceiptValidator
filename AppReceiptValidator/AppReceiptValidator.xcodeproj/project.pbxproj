@@ -1734,6 +1734,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -1753,7 +1754,7 @@
 				MODULEMAP_FILE = "AppReceiptValidator/Supporting Files/AppReceiptValidator.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ideasoncanvas.AppReceiptValidator;
 				PRODUCT_NAME = AppReceiptValidator;
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1766,6 +1767,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -1785,7 +1787,7 @@
 				MODULEMAP_FILE = "AppReceiptValidator/Supporting Files/AppReceiptValidator.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ideasoncanvas.AppReceiptValidator;
 				PRODUCT_NAME = AppReceiptValidator;
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
