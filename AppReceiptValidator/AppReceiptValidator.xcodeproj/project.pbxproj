@@ -30,7 +30,7 @@
 		D15358AE1F62C12500F297D0 /* grandUnifiedExpiredAppleCert_receipt.b64 in Resources */ = {isa = PBXBuildFile; fileRef = D15358A51F62BEC100F297D0 /* grandUnifiedExpiredAppleCert_receipt.b64 */; };
 		D15358B41F62C47400F297D0 /* deprecatedSinglesTypeExpiredAppleCert_receipt.b64 in Resources */ = {isa = PBXBuildFile; fileRef = D15358B11F62C3C400F297D0 /* deprecatedSinglesTypeExpiredAppleCert_receipt.b64 */; };
 		D15358B51F62C47500F297D0 /* deprecatedSinglesTypeExpiredAppleCert_receipt.b64 in Resources */ = {isa = PBXBuildFile; fileRef = D15358B11F62C3C400F297D0 /* deprecatedSinglesTypeExpiredAppleCert_receipt.b64 */; };
-		D15358EF1F62D2C100F297D0 /* AppReceiptValidator.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D1D6F4B51F5D684C00E86FE1 /* AppReceiptValidator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D15358EF1F62D2C100F297D0 /* AppReceiptValidatorLib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D1D6F4B51F5D684C00E86FE1 /* AppReceiptValidatorLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D15C59111F697D4D006F66FE /* pkcs7_union_accessors.h in Headers */ = {isa = PBXBuildFile; fileRef = D19095BA1F6004D10095729B /* pkcs7_union_accessors.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		D15C59151F698061006F66FE /* aes.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431061F69627600F7F39D /* aes.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		D15C59181F6981C4006F66FE /* asn1.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431071F69627600F7F39D /* asn1.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -117,9 +117,9 @@
 		D19095A21F6000DE0095729B /* hannes_mac_mindnode_pro_Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1D6F5471F5D8DF700E86FE1 /* hannes_mac_mindnode_pro_Info.plist */; };
 		D19095A31F6000DE0095729B /* hannes_mac_mindnode_pro_receipt in Resources */ = {isa = PBXBuildFile; fileRef = D1D6F5451F5D8DF700E86FE1 /* hannes_mac_mindnode_pro_receipt */; };
 		D19095A41F6000DE0095729B /* not_a_receipt in Resources */ = {isa = PBXBuildFile; fileRef = D1D6F54F1F5D9E8D00E86FE1 /* not_a_receipt */; };
-		D19095AE1F6001800095729B /* AppReceiptValidator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1D6F4B51F5D684C00E86FE1 /* AppReceiptValidator.framework */; };
-		D19095B81F6003AB0095729B /* AppReceiptValidator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1D6F4B51F5D684C00E86FE1 /* AppReceiptValidator.framework */; };
-		D19095B91F6003AE0095729B /* AppReceiptValidator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1D6F4C21F5D687400E86FE1 /* AppReceiptValidator.framework */; };
+		D19095AE1F6001800095729B /* AppReceiptValidatorLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1D6F4B51F5D684C00E86FE1 /* AppReceiptValidatorLib.framework */; };
+		D19095B81F6003AB0095729B /* AppReceiptValidatorLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1D6F4B51F5D684C00E86FE1 /* AppReceiptValidatorLib.framework */; };
+		D19095B91F6003AE0095729B /* AppReceiptValidatorLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1D6F4C21F5D687400E86FE1 /* AppReceiptValidatorLib.framework */; };
 		D19095BC1F6004D10095729B /* pkcs7_union_accessors.c in Sources */ = {isa = PBXBuildFile; fileRef = D19095BB1F6004D10095729B /* pkcs7_union_accessors.c */; };
 		D19095BD1F6004D10095729B /* pkcs7_union_accessors.c in Sources */ = {isa = PBXBuildFile; fileRef = D19095BB1F6004D10095729B /* pkcs7_union_accessors.c */; };
 		D19095C01F60158B0095729B /* DeviceIdentifier+installedDeviceIdentifier_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19095BF1F60158B0095729B /* DeviceIdentifier+installedDeviceIdentifier_macOS.swift */; };
@@ -269,7 +269,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D15358EF1F62D2C100F297D0 /* AppReceiptValidator.framework in Embed Frameworks */,
+				D15358EF1F62D2C100F297D0 /* AppReceiptValidatorLib.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,8 +461,8 @@
 		D1D4314E1F69627600F7F39D /* x509.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = x509.h; sourceTree = "<group>"; };
 		D1D4314F1F69627600F7F39D /* x509_vfy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = x509_vfy.h; sourceTree = "<group>"; };
 		D1D431501F69627600F7F39D /* x509v3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = x509v3.h; sourceTree = "<group>"; };
-		D1D6F4B51F5D684C00E86FE1 /* AppReceiptValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppReceiptValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1D6F4C21F5D687400E86FE1 /* AppReceiptValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppReceiptValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1D6F4B51F5D684C00E86FE1 /* AppReceiptValidatorLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppReceiptValidatorLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1D6F4C21F5D687400E86FE1 /* AppReceiptValidatorLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppReceiptValidatorLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1D6F4E41F5D691400E86FE1 /* AppReceiptValidator Demo iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppReceiptValidator Demo iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1D6F4E61F5D691400E86FE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1D6F4E81F5D691400E86FE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -490,7 +490,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D19095B91F6003AE0095729B /* AppReceiptValidator.framework in Frameworks */,
+				D19095B91F6003AE0095729B /* AppReceiptValidatorLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,7 +505,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D19095AE1F6001800095729B /* AppReceiptValidator.framework in Frameworks */,
+				D19095AE1F6001800095729B /* AppReceiptValidatorLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -531,7 +531,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D19095B81F6003AB0095729B /* AppReceiptValidator.framework in Frameworks */,
+				D19095B81F6003AB0095729B /* AppReceiptValidatorLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -827,8 +827,8 @@
 		D1D6F49C1F5D67E600E86FE1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D1D6F4B51F5D684C00E86FE1 /* AppReceiptValidator.framework */,
-				D1D6F4C21F5D687400E86FE1 /* AppReceiptValidator.framework */,
+				D1D6F4B51F5D684C00E86FE1 /* AppReceiptValidatorLib.framework */,
+				D1D6F4C21F5D687400E86FE1 /* AppReceiptValidatorLib.framework */,
 				D1D6F4E41F5D691400E86FE1 /* AppReceiptValidator Demo iOS.app */,
 				D19095811F6000A40095729B /* AppReceiptValidator Demo macOS.app */,
 				D19095921F6000A40095729B /* AppReceiptValidator Tests macOS.xctest */,
@@ -1160,7 +1160,7 @@
 			);
 			name = "AppReceiptValidator iOS";
 			productName = AppReceiptValidator_iOS;
-			productReference = D1D6F4B51F5D684C00E86FE1 /* AppReceiptValidator.framework */;
+			productReference = D1D6F4B51F5D684C00E86FE1 /* AppReceiptValidatorLib.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D1D6F4C11F5D687400E86FE1 /* AppReceiptValidator macOS */ = {
@@ -1178,7 +1178,7 @@
 			);
 			name = "AppReceiptValidator macOS";
 			productName = AppReceiptValidator_macOS;
-			productReference = D1D6F4C21F5D687400E86FE1 /* AppReceiptValidator.framework */;
+			productReference = D1D6F4C21F5D687400E86FE1 /* AppReceiptValidatorLib.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D1D6F4E31F5D691400E86FE1 /* AppReceiptValidator Demo iOS */ = {
@@ -1753,7 +1753,7 @@
 				);
 				MODULEMAP_FILE = "AppReceiptValidator/Supporting Files/AppReceiptValidator.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ideasoncanvas.AppReceiptValidator;
-				PRODUCT_NAME = AppReceiptValidator;
+				PRODUCT_NAME = AppReceiptValidatorLib;
 				SKIP_INSTALL = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1786,7 +1786,7 @@
 				);
 				MODULEMAP_FILE = "AppReceiptValidator/Supporting Files/AppReceiptValidator.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ideasoncanvas.AppReceiptValidator;
-				PRODUCT_NAME = AppReceiptValidator;
+				PRODUCT_NAME = AppReceiptValidatorLib;
 				SKIP_INSTALL = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1818,7 +1818,7 @@
 				);
 				MODULEMAP_FILE = "AppReceiptValidator/Supporting Files/AppReceiptValidator.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ideasoncanvas.AppReceiptValidator;
-				PRODUCT_NAME = AppReceiptValidator;
+				PRODUCT_NAME = AppReceiptValidatorLib;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -1850,7 +1850,7 @@
 				);
 				MODULEMAP_FILE = "AppReceiptValidator/Supporting Files/AppReceiptValidator.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ideasoncanvas.AppReceiptValidator;
-				PRODUCT_NAME = AppReceiptValidator;
+				PRODUCT_NAME = AppReceiptValidatorLib;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;

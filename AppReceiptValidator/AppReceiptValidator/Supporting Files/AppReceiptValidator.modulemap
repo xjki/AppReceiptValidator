@@ -1,4 +1,4 @@
-framework module AppReceiptValidator {
+framework module AppReceiptValidatorLib {
     explicit module OpenSSL {
         header "aes.h"
         header "crypto.h"

@@ -6,7 +6,7 @@
 //  Copyright © 2017 IdeasOnCanvas GmbH. All rights reserved.
 //
 
-import AppReceiptValidator
+import AppReceiptValidatorLib
 import Cocoa
 
 /// Displays two textfields. One to paste a receipt into as base64 string, the other displaying the parsed receipt.

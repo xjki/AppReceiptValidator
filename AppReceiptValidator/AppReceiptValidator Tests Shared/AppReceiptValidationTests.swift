@@ -6,7 +6,7 @@
 //  Copyright © 2017 IdeasOnCanvas GmbH. All rights reserved.
 //
 
-import AppReceiptValidator
+import AppReceiptValidatorLib
 import XCTest
 
 class AppReceiptValidationTests: XCTestCase {

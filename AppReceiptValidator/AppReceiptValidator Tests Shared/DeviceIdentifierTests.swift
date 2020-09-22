@@ -6,7 +6,7 @@
 //  Copyright © 2018 IdeasOnCanvas GmbH. All rights reserved.
 //
 
-@testable import AppReceiptValidator
+@testable import AppReceiptValidatorLib
 import Foundation
 import XCTest
 
