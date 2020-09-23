@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D1D6F4B41F5D684C00E86FE1"
-               BuildableName = "AppReceiptValidator.framework"
+               BuildableName = "AppReceiptValidatorLib.framework"
                BlueprintName = "AppReceiptValidator iOS"
                ReferencedContainer = "container:AppReceiptValidator.xcodeproj">
             </BuildableReference>
@@ -31,7 +31,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D1D6F4B41F5D684C00E86FE1"
-            BuildableName = "AppReceiptValidator.framework"
+            BuildableName = "AppReceiptValidatorLib.framework"
             BlueprintName = "AppReceiptValidator iOS"
             ReferencedContainer = "container:AppReceiptValidator.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D1D6F4B41F5D684C00E86FE1"
-            BuildableName = "AppReceiptValidator.framework"
+            BuildableName = "AppReceiptValidatorLib.framework"
             BlueprintName = "AppReceiptValidator iOS"
             ReferencedContainer = "container:AppReceiptValidator.xcodeproj">
          </BuildableReference>
@@ -81,7 +81,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D1D6F4B41F5D684C00E86FE1"
-            BuildableName = "AppReceiptValidator.framework"
+            BuildableName = "AppReceiptValidatorLib.framework"
             BlueprintName = "AppReceiptValidator iOS"
             ReferencedContainer = "container:AppReceiptValidator.xcodeproj">
          </BuildableReference>
